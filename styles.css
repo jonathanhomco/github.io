@@ -1,0 +1,107 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1535952548450-d7447587e733?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06915d54f2d59301efd9bf7d2307b952&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.labor {
+    font-family: 'Raleway', sans-serif;
+    border: solid 5px black;
+    background-color: seagreen
+}
+
+.hobbies {
+    font-family: 'Titillium Web', sans-serif;
+    border: dotted 5px hotpink;
+    background-color: gray
+}
+
+.dogs {
+    font-family: 'Baloo Tammudu', cursive;
+    border: dashed 5px aqua;
+    background-color: fuchsia
+}
+
+article h2 {
+    color: goldenrod
+}
+
+article {
+    margin: 25px
+}
+
+#logo {
+    width: 75px 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#nav-ul {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: hotpink
+}
+
+/* ABOUT ME */
+
+#about-photo {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+#about-title {
+    font-size: 4em;
+}
+
+#about-description {
+    margin: 10px 100px;
+    background-color: whitesmoke;
+    color: limegreen;
+    padding: 10px;
+    opacity: .4;
+}
+
+button {
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: #00aa9e;
+    color: black;
+}
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Baloo Tammudu', cursive; */
