@@ -1,0 +1,72 @@
+body {
+      background-color: blue;
+      color: black;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-family: 'Oswald', sans-serif;
+    }
+    
+    div {
+      background-color: rgb(255, 255, 0);
+      background-image: url("https://images.pexels.com/photos/355808/pexels-photo-355808.jpeg?cs=srgb&dl=background-blue-clean-355808.jpg&fm=jpg");
+      background-repeat: repeat; 
+      /* font-family: 'Indie Flower', cursive; */
+      text-align: right;
+    }
+    
+     ul {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: bolder;
+      font-style: oblique;
+      font-size: 4em;
+      list-style-position: inside;
+      list-style: square;
+      text-align: center;
+    }
+    
+    ol {
+      text-align: left;
+      font-family: "Times New Roman", Times, serif;
+      color: black;
+      list-style: none;
+    } 
+    
+    article {
+      border-style: double;
+      border-width: 1em;
+      border-color: yellow;
+       border: double 1em yellow; 
+       border-top-style: dotted;
+      border-bottom: 3px dashed lightgreen;
+    }
+    
+     div {
+      background-color: blue;
+    }
+    
+    .container {
+      background-color: green;
+    } 
+    
+    #contact-us {
+      color: white;
+    }
+    
+    p {
+      background-color: pink;
+    }
+    
+    article {
+      background-color: coral;
+    } 
+    
+    article > p {
+      background-color: blue;
+    }
+    
+    .container.black {
+      font-family: Ariel, Helvetica, sans-serif;
+    }
+
+    .pic {
+      padding: 2em;
+    }
